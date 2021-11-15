@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form elements</title>
+</head>
+
+<body>
+    <form>
+        <label for="fname"> First Name</label><br>
+        <input type="text" name="firstname" id="fname" value="Phanindra" placeholder="First name"><br><br><br>
+
+        <label for="cars">Please select a Car:</label>
+        <select name="cars" id="cars" multiple>
+            <option value="volve">Volvo</option>
+            <option value="saab" selected>Saab</option>
+            <option value="audi">Audi</option>
+        </select><br><br><br>
+
+        <label for="message">Add comment here : </label><br>
+        <textarea name="message" id="message" cols="30" rows="10">This is a comment for a person
+        </textarea><br><br><br>
+
+
+        <button type="button" onclick="alert('Hello world!')">Click me</button>
+
+    </form>
+</body>
+
+</html>
